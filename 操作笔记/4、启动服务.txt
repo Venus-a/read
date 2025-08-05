@@ -1,0 +1,19 @@
+注意：
+1、数据问题
+路径 fd_system/fd_data
+删除 rm -f qdrant.tar
+然后到路径 fd_system
+删除dataset_init.sh中关于qdrant的配置
+赋权 chmod a+x dataset_init.sh
+执行 ./dataset_init.sh
+
+2、大模型位置问题
+将.guff大模型（fd_image里）移动到Docker compose中llm_model文件夹里
+
+3、删除历史遗留容器
+停止上一个版本的服务 docker compose down或者./stop_server.sh
+查看遗留容器 dockers ps -a
+删除 docker rm -f 容器IP
+
+
+docker compose up -d

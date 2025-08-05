@@ -1,0 +1,11 @@
+非root下使用
+从百度网盘下载文件夹 bypy downdir /logan/fd_image_20250704
+从百度网盘下载文件bypy downfile /logan/fd_image_20250704/chat_server_v1.5_7.0.tar
+
+
+隐藏文件路径
+vim  .env
+
+FILE_PATH=/home/mozinodej/PycharmProjects/fd_system
+
+:wq

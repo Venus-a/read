@@ -1,0 +1,9 @@
+
+
+docker load -i fd_images/mysql_8.0.tar
+docker load -i fd_images/iss_baseenv_v1.10.tar
+docker load -i fd_images/neo4j_5.17-community.tar
+docker load -i fd_images/qdrant_v1.10.0.tar
+docker load -i fd_images/redis_6.0.16.tar
+docker load -i fd_images/chat_server_v1.5_8.9.tar
+docker load -i fd_images/embed_server_v1.1.tar
